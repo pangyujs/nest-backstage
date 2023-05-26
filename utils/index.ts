@@ -1,6 +1,6 @@
 import { parse } from 'yaml';
-import path from 'path';
-import fs from 'fs';
+const path = require('path');
+const fs = require('fs');
 
 // 获取项目运行环境
 export const getEnv = () => {
