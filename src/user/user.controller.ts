@@ -27,7 +27,7 @@ export class UserController {
 
   @Get('getTestName')
   getTestName() {
-    return this.configService.get('TEST_VALUE').name;
+    return this.configService.get('TEST_VALUE').name + '111112221';
   }
 
   @Post()
